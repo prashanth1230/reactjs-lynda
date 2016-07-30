@@ -1,0 +1,19 @@
+{
+  "name": "react-lynda",
+  "version": "1.0.0",
+  "description": "Learning ReactJS through Lynda.com videos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashanth1230/reactjs-lynda.git"
+  },
+  "author": "Prashanth Udupa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashanth1230/reactjs-lynda/issues"
+  },
+  "homepage": "https://github.com/prashanth1230/reactjs-lynda#readme"
+}
