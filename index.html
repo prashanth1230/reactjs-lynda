@@ -2,14 +2,15 @@
 <html>
 
 <head>
-    <script src="https://fb.me/react-15.2.1.min.js"></script>
-    <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
+    <script src="bower_components/react/react.min.js"></script>
+    <script src="bower_components/react/react-dom.min.js"></script>
     <title>My First React File</title>
 </head>
 
 <body>
+    <div id="app"></div>
     <script>
-
+        ReactDOM.render(React.DOM.h1(null, "Hello World!"), document.getElementById("app"));
     </script>
 </body>
 
