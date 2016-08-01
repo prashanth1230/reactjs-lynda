@@ -8,10 +8,20 @@
 </head>
 
 <body>
-    <div id="app"></div>
-    <script>
-        ReactDOM.render(React.DOM.h1(null, "Hello World!"), document.getElementById("app"));
-    </script>
+<div id="app"></div>
+<div id="new-app"></div>
+<script>
+    ReactDOM.render(React.DOM.h1({id: 'my-heading'}, "Hello World!"), document.getElementById("app"));
+    var Component = React.createClass({
+        render: function () {
+            return React.DOM.span(null, "I'm so custom");
+        }
+    });
+    ReactDOM.render(
+            React.createElement(Component),
+            document.getElementById("new-app")
+    );
+</script>
 </body>
 
 </html>
