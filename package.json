@@ -1,19 +1,19 @@
 {
-  "name": "react-lynda",
+  "name": "react-safarionline",
   "version": "1.0.0",
-  "description": "Learning ReactJS through Lynda.com videos",
+  "description": "Up and running with ReactJS safaribooks online - (React - Up and Running) exercise files included",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prashanth1230/reactjs-lynda.git"
+    "url": "git+https://github.com/prashanth1230/reactjs-safarionline.git"
   },
   "author": "Prashanth Udupa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prashanth1230/reactjs-lynda/issues"
+    "url": "https://github.com/prashanth1230/reactjs-safarionline/issues"
   },
-  "homepage": "https://github.com/prashanth1230/reactjs-lynda#readme"
+  "homepage": "https://github.com/prashanth1230/reactjs-safarionline#readme"
 }
