@@ -1,0 +1,21 @@
+{
+  "name": "react-lynda",
+  "description": "Learning ReactJS through Lynda.com videos",
+  "main": "index.html",
+  "authors": [
+    "Prashanth Udupa"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/prashanth1230/reactjs-lynda",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.2.1"
+  }
+}
